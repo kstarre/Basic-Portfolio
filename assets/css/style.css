@@ -1,3 +1,34 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-color: #ffffff;
+}
 header {
-	
+	display: block;
+	height: 12.5%;
+}
+main {
+	background: url(../images/backgroundImage-topography.png) repeat;
+	height: 75%;
+}
+article {
+	background-color: #ffffff;
+	width: 40%;
+}
+aside {
+
+}
+footer {
+	background-color: #666666;
+	height: 12.5%;
+}
+h1, h2, h3 {
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	color: #4aaaaf;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+nav li, aside li {
+	display: inline;
 }
