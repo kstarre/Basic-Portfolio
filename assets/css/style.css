@@ -54,7 +54,7 @@ footer p {
     position: relative;
     top: 45px;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family:'Georgia', Times, 'Times New Roman', serif;
 	color: #4aaaaf;
 	font-weight: bold;
@@ -143,4 +143,9 @@ input[type=submit] {
 	color:#ffffff;
 	border: none;
 	padding: 10px 0;
+}
+.portfolio img {
+	float: left;
+	margin: 30px 15px 20px 30px;
+	display: inline-block;
 }
