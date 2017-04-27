@@ -4,8 +4,14 @@ body {
 	background-color: #ffffff;
 }
 header {
-	display: block;
-	height: 12.5%;
+	height: 100px;
+	border-bottom: 3px solid lightgray;
+}
+header div {
+	background-color:#4aaaaf;
+	height:103px;
+	position: absolute;
+	left:50px;
 }
 main {
 	background: url(../images/backgroundImage-topography.png) repeat;
@@ -20,7 +26,7 @@ aside {
 }
 footer {
 	background-color: #666666;
-	height: 12.5%;
+	height: 100px;
 }
 h1, h2, h3 {
 	font-family:'Georgia', Times, 'Times New Roman', serif;
@@ -28,7 +34,24 @@ h1, h2, h3 {
 	font-weight: bold;
 	font-size: 25px;
 }
-
+header h1 {
+	color:#ffffff;
+	display: inline;
+	text-align: center;
+	position: relative;
+	top:30px;
+	padding: 0 30px;
+}
 nav li, aside li {
 	display: inline;
+}
+nav {
+	position: absolute;
+	right: 150px;
+	top: 75px;
+}
+nav a {
+	text-decoration: none;
+	border-right: 1px solid lightgray;
+	padding: 0 10px;
 }
