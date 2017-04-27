@@ -6,9 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
+<body class>
 	<header>
-		<h1>Katie Starrett</h1>
+		<div>
+			<h1>Katie Starrett</h1>
+		</div>
 		<nav>
 			<ul>
 				<li>
@@ -23,35 +25,38 @@
 			</ul>
 		</nav>
 	</header>
-	<form>
-		<label for="name">Name</label>
-		<input type="text" id="name" placeholder="John Smith" />
-		<label for="email">Email</label>
-		<input type="Email" id="email" placeholder="example@gmail.com" />
-		<label for="message">Message</label>
-		<textarea id="message"></textarea>
-		<input type="submit" value="Submit">
-	</form>
-	<aside>
-		<h3>Connect with Me</h3>
-		<ul>
-			<li>
-				<a href="https://github.com/kstarre">
-					<img src="assets/images/github-icon.png" alt="github-icon" />
-				</a>
-			</li>
-			<li>
-				<a href="https://www.linkedin.com/in/katie-starrett-782a4862/">
-					<img src="assets/images/linkedin-icon.png" alt="linkedin-icon" />
-				</a>
-			</li>
-			<li>
-				<a href="http://stackoverflow.com/users/7846315/kstarre?tab=profile">
-					<img src="assets/images/stackoverflow-icon.png" alt="stackoverflow-icon" />
-				</a>
-			</li>
-		</ul>
-	</aside>
+	<main>
+		<form class="clearfix">
+			<h2>Contact</h2>
+			<label for="name">Name</label>
+			<input type="text" id="name" placeholder="John Smith" />
+			<label for="email">Email</label>
+			<input type="Email" id="email" placeholder="example@gmail.com" />
+			<label for="message">Message</label>
+			<textarea id="message"></textarea>
+			<input type="submit" value="Submit">
+		</form>
+		<aside class="clearfix">
+			<h3>Connect with Me</h3>
+			<ul>
+				<li>
+					<a href="https://github.com/kstarre">
+						<img src="assets/images/github-icon.png" alt="github-icon" />
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/katie-starrett-782a4862/">
+						<img src="assets/images/linkedin-icon.png" alt="linkedin-icon" />
+					</a>
+				</li>
+				<li>
+					<a href="http://stackoverflow.com/users/7846315/kstarre?tab=profile">
+						<img src="assets/images/stackoverflow-icon.png" alt="stackoverflow-icon" />
+					</a>
+				</li>
+			</ul>
+		</aside>
+	</main>
 	<footer>
 		<p>&copy Copyright 2017 Katie Starrett</p>
 	</footer>
