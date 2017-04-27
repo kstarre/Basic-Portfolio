@@ -9,24 +9,38 @@ header {
 }
 header div {
 	background-color:#4aaaaf;
-	height:103px;
+	height:100px;
 	position: absolute;
-	left:50px;
+	left:100px;
 }
 main {
 	background: url(../images/backgroundImage-topography.png) repeat;
-	height: 75%;
+	height: 100%;
+	overflow: hidden;
 }
 article {
 	background-color: #ffffff;
 	width: 40%;
+	margin: 40px 40px 40px 100px;
+	display: inline-block;
+	border: 1px solid #e1e1e1;
+	float:left;
+	padding: 10px 20px 20px 20px;
 }
 aside {
-
+	margin: 40px;
+	border: 1px solid #e1e1e1;
+	display:inline-block;
+	float:left;
+	background-color:#ffffff;
+	padding: 10px 20px 20px 20px;
 }
 footer {
 	background-color: #666666;
 	height: 100px;
+	border-top: 5px solid #4aaaaf;
+	position: relative;
+	bottom: 0;
 }
 h1, h2, h3 {
 	font-family:'Georgia', Times, 'Times New Roman', serif;
@@ -52,6 +66,50 @@ nav {
 }
 nav a {
 	text-decoration: none;
+	color: #777777;
+}
+nav li {
 	border-right: 1px solid lightgray;
 	padding: 0 10px;
+}
+nav li:last-child {
+	border-right: none;
+}
+aside img {
+	height: 40px;
+	width: 40px;
+}
+aside a {
+	text-decoration: none;
+}
+aside ul {
+	text-align: center;
+}
+.clearfix::after {
+	content:'';
+	display:block;
+	clear: both;
+}
+aside h3 {
+	border-bottom: 2px solid #e1e1e1;
+	margin: 5px 10px 10px 10px;
+    padding: 10px 0;
+    font-size: 20px;
+}
+main h2 {
+	border-bottom: 3px solid #e1e1e1;
+	margin: 5px 10px 10px 10px;
+    padding: 10px 0;
+}
+article p {
+	margin: 0 10px 10px 10px;
+}
+article figure {
+	margin: 0 10px 0 10px;
+	float: left;
+}
+.stackoverflow {
+	height: 37px;
+    width: 37px;
+    border: 1px solid #ffffff;
 }
